@@ -11,8 +11,7 @@ connectDB();
 
 // Middleware
 app.use(cors());
-// OR: Enable CORS for specific frontend
-app.use(cors({ origin: "https://nestkannur.netlify.app" }));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
